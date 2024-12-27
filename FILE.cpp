@@ -11,7 +11,7 @@ int main()
     printf("\n");
     float eng, bio, pps_lab, pps, cf, phy, math;
     float result;
-    printf("Enter marks of ''Basic Functional English and English Spoken''\n=");
+    printf("Enter marks of ''English''\n=");
     scanf("%f", &eng);
     printf("\n");
     if (eng > 79.00)
@@ -55,7 +55,7 @@ int main()
         eng = 0.00;
     }
 
-    printf("Enter marks of ''Introduction to Biology and Chemistry for Computation''\n=");
+    printf("Enter marks of ''Data structure''\n=");
     scanf("%f", &bio);
     printf("\n");
     if (bio > 79.00)
@@ -98,7 +98,7 @@ int main()
     {
         bio = 0.00;
     }
-    printf("Enter marks of ''Programming and Problem Solving Lab''\n=");
+    printf("Enter marks of ''Data structure Lab''\n=");
     scanf("%f", &pps_lab);
     printf("\n");
     if (pps_lab > 79.00)
@@ -142,7 +142,7 @@ int main()
         pps_lab = 0.00;
     }
 
-    printf("Enter marks of ''Programming and Problem Solving''\n=");
+    printf("Enter marks of ''EC''\n=");
     scanf("%f", &pps);
     printf("\n");
     if (pps > 79.00)
@@ -186,7 +186,7 @@ int main()
         pps = 0.00;
     }
 
-    printf("Enter marks of ''Computer Fundamentals''\n=");
+    printf("Enter marks of ''''\n=");
     scanf("%f", &cf);
     printf("\n");
     if (cf > 79.00)
@@ -230,7 +230,7 @@ int main()
         cf = 0.00;
     }
 
-    printf("Enter marks of ''Physics-I''\n=");
+    printf("Enter marks of ''Physics''\n=");
     scanf("%f", &phy);
     printf("\n");
     if (phy > 79.00)
